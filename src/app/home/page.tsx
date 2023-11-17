@@ -7,8 +7,8 @@ import IntroHome from '@/app/home/intro'
 import NightlifeStory from '@/app/home/nightlife-story'
 import PrivateParty from '@/app/home/private-party'
 import TopLocation from '@/app/home/top-location'
-import { Album } from '@mui/icons-material'
 import Link from 'next/link'
+import Album from '@/app/home/album'
 
 function PageHome() {
 
