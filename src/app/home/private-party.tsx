@@ -35,18 +35,18 @@ function PrivateParty() {
               <div className="flex">
                 <div
                   className="w-0 h-0 
-border-t-[20px] border-t-transparent
-border-r-[25px] border-r-white
-border-b-[20px] border-b-transparent"
+                  border-t-[20px] border-t-transparent
+                  border-r-[25px] border-r-white
+                  border-b-[20px] border-b-transparent"
                 ></div>
                 <div className="border-[2px] h-[40px] bg-white text-black text-[22px] font-bold tracking-tighter px-3 font-sans uppercase">
                   TỔ CHỨC SỰ KIỆN PRIVATE PARTY hang đầu
                 </div>
                 <div
                   className="w-0 h-0 
-border-t-[20px] border-t-transparent
-border-l-[25px] border-r-white
-border-b-[20px] border-b-transparent"
+                  border-t-[20px] border-t-transparent
+                  border-l-[25px] border-r-white
+                  border-b-[20px] border-b-transparent"
                 ></div>
               </div>
             </Divider>

@@ -29,7 +29,7 @@ function PageHome() {
         <EventHome />
         <TopLocation />
       </div>
-      <div>
+      <div className="w-full">
         <img
           src="https://vietnamnightlife.com/uploads/images/2022/10/1665120200-single_banner45-z376243728949754c7499d23a8643505f533d763f4ab35.png.webp"
           alt=""
@@ -40,7 +40,7 @@ function PageHome() {
         <ComboNight />
       </div>
 
-      <div>yar
+      <div className="w-full">
         <img
           src="https://vietnamnightlife.com/uploads/images/2022/10/1665120200-single_banner45-z376243728949754c7499d23a8643505f533d763f4ab35.png.webp"
           alt=""
@@ -57,8 +57,16 @@ function PageHome() {
       <div>
         <Album />
       </div>
-
-      <div className="flex w-[1214px] h-screen "></div>
+      {/* <hr className="h-[1px] w-full mt-12" />
+      <div className="flex w-[1214px] h-screen ">
+        <div className="flex flex-col w-[416px] h-[1px]">
+          <div>Lien he</div>
+          <hr className="w-[75%] h-[1px]" />
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div> */}
     </div>
   )
 }

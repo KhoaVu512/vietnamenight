@@ -53,7 +53,7 @@ border-b-[20px] border-b-transparent"
       <div className="flex justify-center font-medium mt-8 text-[14px]">
         Trải nghiệm những địa điểm giải trí hàng đầu tại thành phố Hồ Chí Minh.
       </div>
-      <div className="flex w-full flex-wrap justify-center px-4">
+      <div className="flex w-full flex-wrap justify-between">
         <TopLocationItem />
         <TopLocationItem />
         <TopLocationItem />

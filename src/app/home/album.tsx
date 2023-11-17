@@ -1,9 +1,8 @@
-import * as React from 'react'
-import { styled } from '@mui/material/styles'
-import Divider from '@mui/material/Divider'
-import Link from 'next/link'
 import AlbumItem from '@/app/components/Home/album-item'
 import '@/assets/styles/style.css'
+import Divider from '@mui/material/Divider'
+import { styled } from '@mui/material/styles'
+import Link from 'next/link'
 
 const Root = styled('div')(({ theme }) => ({
   width: '100%',
@@ -35,9 +34,9 @@ function Album() {
               <div className="flex">
                 <div
                   className="w-0 h-0 
-border-t-[20px] border-t-transparent
-border-r-[25px] border-r-white
-border-b-[20px] border-b-transparent"
+                        border-t-[20px] border-t-transparent
+                        border-r-[25px] border-r-white
+                        border-b-[20px] border-b-transparent"
                 ></div>
                 <div className="border-[2px] h-[40px] bg-white text-black text-[22px] font-bold tracking-tighter px-3 font-sans uppercase">
                   ALBUM ẢNH
@@ -62,8 +61,13 @@ border-b-[20px] border-b-transparent"
           <AlbumItem />
         </div>
       </div>
-      <div className='flex justify-center'>
-        <Link href={'/'} className="btn-album">Xem thêm {'-->'}</Link>
+      <div className="flex justify-center">
+        <Link
+          href={'/'}
+          className="btn-album"
+        >
+          Xem thêm {'-->'}
+        </Link>
       </div>
     </div>
   )
