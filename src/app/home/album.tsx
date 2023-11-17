@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles'
 import Divider from '@mui/material/Divider'
 import Link from 'next/link'
 import AlbumItem from '@/app/components/Home/album-item'
-import '@/app/assest/style/style.css'
+import '@/assets/styles/style.css'
 
 const Root = styled('div')(({ theme }) => ({
   width: '100%',
