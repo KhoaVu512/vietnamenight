@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import '@/'
+import '@/assest/style/style.css'
 
 function NightlifeStoryItem() {
   return (
