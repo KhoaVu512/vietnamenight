@@ -30,7 +30,7 @@ function PageHome() {
           <EventHome />
           <TopLocation />
         </div>
-        <div href={'/'}>
+        <div >
           <img
             src="https://vietnamnightlife.com/uploads/images/2022/10/1665120200-single_banner45-z376243728949754c7499d23a8643505f533d763f4ab35.png.webp"
             alt=""
@@ -41,7 +41,7 @@ function PageHome() {
           <ComboNight />
         </div>
   
-        <div href={'/'}>
+        <div>
           <img
             src="https://vietnamnightlife.com/uploads/images/2022/10/1665120200-single_banner45-z376243728949754c7499d23a8643505f533d763f4ab35.png.webp"
             alt=""
