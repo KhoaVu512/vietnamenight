@@ -1,3 +1,5 @@
+'use client'
+
 import LayoutPage from '@/app/components/Layout/layout-page'
 import ComboNight from '@/app/home/combo-night'
 import EventHome from '@/app/home/event'
