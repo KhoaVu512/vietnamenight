@@ -7,7 +7,6 @@ import IntroHome from '@/app/home/intro'
 import NightlifeStory from '@/app/home/nightlife-story'
 import PrivateParty from '@/app/home/private-party'
 import TopLocation from '@/app/home/top-location'
-import Link from 'next/link'
 import Album from '@/app/home/album'
 
 function PageHome() {
@@ -31,24 +30,24 @@ function PageHome() {
           <EventHome />
           <TopLocation />
         </div>
-        <Link href={'/'}>
+        <div href={'/'}>
           <img
             src="https://vietnamnightlife.com/uploads/images/2022/10/1665120200-single_banner45-z376243728949754c7499d23a8643505f533d763f4ab35.png.webp"
             alt=""
             className="w-full h-[40%] mt-20"
           />
-        </Link>
+        </div>
         <div>
           <ComboNight />
         </div>
   
-        <Link href={'/'}>
+        <div href={'/'}>
           <img
             src="https://vietnamnightlife.com/uploads/images/2022/10/1665120200-single_banner45-z376243728949754c7499d23a8643505f533d763f4ab35.png.webp"
             alt=""
             className="w-full h-[40%] mt-20"
           />
-        </Link>
+        </div>
   
         <div>
           <PrivateParty />
