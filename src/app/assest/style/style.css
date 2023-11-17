@@ -55,3 +55,6 @@
   transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
 }
 
+.btn-album:hover {
+  box-shadow: 0 14px 26px -12px rgb(34 34 34 / 42%), 0 4px 23px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(34 34 34 / 20%)
+}

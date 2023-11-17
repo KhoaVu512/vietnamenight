@@ -3,6 +3,7 @@ import { styled } from '@mui/material/styles'
 import Divider from '@mui/material/Divider'
 import Link from 'next/link'
 import AlbumItem from '@/app/components/Home/album-item'
+import '@/app/assest/style/style.css'
 
 const Root = styled('div')(({ theme }) => ({
   width: '100%',
@@ -62,7 +63,7 @@ border-b-[20px] border-b-transparent"
         </div>
       </div>
       <div className='flex justify-center'>
-        <Link href={'/'} className="btn-album :hover:shadow-[0 14px 26px -12px rgb(34 34 34 / 42%), 0 4px 23px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(34 34 34 / 20%)]">Xem thêm {'-->'}</Link>
+        <Link href={'/'} className="btn-album">Xem thêm {'-->'}</Link>
       </div>
     </div>
   )
