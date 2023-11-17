@@ -1,11 +1,10 @@
 'use client'
-
-import Home from '@/app/home/home'
+import PageHome from '@/app/home/page'
 
 function Page() {
   return (
     <div>
-      <Home />
+      <PageHome />
     </div>
   )
 }
