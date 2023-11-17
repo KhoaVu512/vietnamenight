@@ -12,7 +12,7 @@ function EventItem() {
         />
         <div className="border-b-[1px] border-b-[rgba(0,255,255,.37)] w-[219px] uppercase">
           <div className="flex justify-center text-[16px] font-bold pt-2 pb-1 px-1">
-            TRAP N' TRUST | BALLTRAP | Friday 22.09.23
+            TRAP N TRUST | BALLTRAP | Friday 22.09.23
           </div>
         </div>
         <div className="px-1 py-1 ">
