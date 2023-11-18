@@ -8,6 +8,8 @@ import NightlifeStory from '@/app/home/nightlife-story'
 import PrivateParty from '@/app/home/private-party'
 import TopLocation from '@/app/home/top-location'
 import Album from '@/app/home/album'
+import '@/assets/styles/style.css'
+import Footer from '@/app/components/Layout/footer'
 
 function PageHome() {
   return (
@@ -57,16 +59,15 @@ function PageHome() {
       <div>
         <Album />
       </div>
-      {/* <hr className="h-[1px] w-full mt-12" />
-      <div className="flex w-[1214px] h-screen ">
-        <div className="flex flex-col w-[416px] h-[1px]">
-          <div>Lien he</div>
-          <hr className="w-[75%] h-[1px]" />
+      <hr className="h-[1px] w-full mt-12" />
+      <div className='flex flex-col h-[250px]'>
+        <Footer />            
+      </div>
+      <div className='bg-[#00FFFF] w-full justify-center flex py-2'>
+        <div className='text-[#000000]'>
+        © 2019 VIETNAMNIGHTLIFE.COM. All rights reserved
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div> */}
+      </div>
     </div>
   )
 }

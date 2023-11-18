@@ -3,6 +3,7 @@ import '@/assets/styles/style.css'
 import Divider from '@mui/material/Divider'
 import { styled } from '@mui/material/styles'
 import Link from 'next/link'
+import EmailIcon from '@mui/icons-material/Email'
 
 const Root = styled('div')(({ theme }) => ({
   width: '100%',
@@ -68,6 +69,27 @@ border-b-[20px] border-b-transparent"
         >
           Xem thêm {'-->'}
         </Link>
+      </div>
+      <div className="flex mt-12 justify-center">
+        <div className="mt-2 mr-24 text-[#CCCCCC] ">
+          ĐĂNG KÝ ĐỂ NHẬN NHỮNG TIN TỨC MỚI NHẤT TỪ CHÚNG TÔI
+        </div>
+        <div className='flex'>
+          <div className="border-[1px] border-[rgba(204,204,204,.3)] w-[335px] py-[6px] px-4">
+            <span className="text-[#888]">
+              <EmailIcon />
+            </span>
+            <input
+              type="text"
+              className=" bg-transparent px-4 placeholder-[#888]"
+              placeholder='Email (*)'
+              
+            />
+          </div>
+          <button className='bg-white text-black py-[6px] px-12 text-[12px] font-bold'>
+            Gửi
+          </button>
+        </div>
       </div>
     </div>
   )

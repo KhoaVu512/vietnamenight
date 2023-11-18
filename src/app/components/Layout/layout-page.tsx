@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 function LayoutPage() {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="flex  w-[1214px] h-[35px] items-center justify-around">
+    <div className="flex flex-col justify-center items-center ">
+      <div className="flex  w-[1214px] h-[35px] items-center justify-around p-[18px">
         <div className="w-full  text-[12px]">
           <div className="flex ">
             <div>
@@ -56,12 +56,11 @@ function LayoutPage() {
             className="w-[100px] h-[80px]"
           />
         </Link>
-        <div className='text-[30px] font-bold tracking-tighter'>VIETNAM NIGHTLIFE GUIDE</div>
-        <div>
-          ---
+        <div className="text-[30px] font-bold tracking-tighter">
+          VIETNAM NIGHTLIFE GUIDE
         </div>
+        <div>---</div>
       </div>
-      
     </div>
   )
 }
