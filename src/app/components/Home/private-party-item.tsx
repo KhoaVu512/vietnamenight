@@ -4,7 +4,7 @@ function PrivatePartyItem() {
   return (
     <Link
       href={'#'}
-      className="  mt-20 block"
+      className="  mt-20 block mx-4"
     >
       <div className="hover:scale-110 max-w-full max-h-full w-[281px] h-[379px] relative">
         <img

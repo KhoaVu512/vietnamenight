@@ -18,8 +18,8 @@ const Root = styled('div')(({ theme }) => ({
 
 function EventHome() {
   return (
-    <div className="w-[1214px] mt-16">
-      <div className="flex w-[1214px] mt-8">
+    <div className="w-[1214px] mt-16 max-lg:w-full ">
+      <div className="flex w-[1214px] mt-8 max-lg:w-full">
         <Root>
           <Divider
             sx={{
@@ -28,7 +28,7 @@ function EventHome() {
                 border: '1px dashed rgba(0,255,255,.37)',
               },
             }}
-            className="flex justify-center items-center w-full h-[1px]"
+            className="flex justify-center items-center w-full h-[1px] "
           >
             <div className="flex">
               <div
@@ -50,10 +50,10 @@ function EventHome() {
           </Divider>
         </Root>
       </div>
-      <div className="flex justify-center mt-8 text-[14px]">
+      <div className="flex justify-center mt-8 text-[14px] px-4">
         Đừng bỏ lỡ những events hấp dẫn diễn ra hằng ngày
       </div>
-      <div className="flex flex-wrap justify-between">
+      <div className="flex flex-wrap justify-between max-md:justify-center max-lg:justify-center">
         <EventItem />
         <EventItem />
         <EventItem />
@@ -66,7 +66,7 @@ function EventHome() {
         <EventItem />
       </div>
 
-      <div className='text-[15px] tracking-tighter flex justify-end font-semibold mt-10'> {'>'}{'>'}Xem thêm</div>
+      <div className='text-[15px] tracking-tighter flex justify-end font-semibold mt-10 mx-8'> {'>'}{'>'}Xem thêm</div>
     </div>
   )
 }

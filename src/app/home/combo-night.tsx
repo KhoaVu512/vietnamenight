@@ -19,8 +19,8 @@ const Root = styled('div')(({ theme }) => ({
 function ComboNight() {
   return (
     <div>
-      <div className="w-[1214px] mt-16">
-        <div className="flex w-[1214px] mt-8">
+      <div className="w-[1214px] mt-16 max-lg:w-full">
+        <div className="flex w-[1214px] mt-8 max-lg:w-full">
           <Root>
             <Divider
               sx={{
@@ -51,10 +51,10 @@ border-b-[20px] border-b-transparent"
             </Divider>
           </Root>
         </div>
-        <div className="flex justify-center font-medium mt-8 text-[14px] text-[#EEEEEE]">
+        <div className="flex justify-center px-8 font-medium mt-8 text-[14px] text-[#EEEEEE]">
         Combo ăn chơi chất ngất của Vietnam Nightlife được lên kế hoạch từ A-Z
         </div>
-        <div className="flex justify-between flex-wrap">
+        <div className="flex justify-center flex-wrap max-lg:w-full">
               <ComboNightItem />
               <ComboNightItem />
               <ComboNightItem />
@@ -63,7 +63,7 @@ border-b-[20px] border-b-transparent"
               <ComboNightItem />
         </div>
       </div>
-      <div className="text-[15px] tracking-tighter flex justify-end font-semibold mt-10">
+      <div className="text-[15px] tracking-tighter flex justify-end font-semibold mt-10 mx-8">
         {' '}
         {'>'}
         {'>'}Xem thêm

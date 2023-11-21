@@ -18,8 +18,8 @@ const Root = styled('div')(({ theme }) => ({
 
 function TopLocation() {
   return (
-    <div className="w-[1214px] mt-16">
-      <div className="flex w-[1214px] mt-8">
+    <div className="w-[1214px] mt-16 max-lg:w-full">
+      <div className="flex w-[1214px] mt-8 max-lg:w-full">
         <Root>
           <Divider
             sx={{
@@ -50,10 +50,10 @@ border-b-[20px] border-b-transparent"
           </Divider>
         </Root>
       </div>
-      <div className="flex justify-center font-medium mt-8 text-[14px]">
+      <div className="flex justify-center font-medium mt-8 text-[14px] max-lg:px-12">
         Trải nghiệm những địa điểm giải trí hàng đầu tại thành phố Hồ Chí Minh.
       </div>
-      <div className="flex w-full flex-wrap justify-between">
+      <div className="flex w-full flex-wrap justify-center max-lg:justify-center">
         <TopLocationItem />
         <TopLocationItem />
         <TopLocationItem />

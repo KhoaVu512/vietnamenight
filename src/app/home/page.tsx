@@ -13,8 +13,7 @@ import Footer from '@/app/components/Layout/footer'
 
 function PageHome() {
   return (
-    <div className="flex min-h-screen flex-col items-center">
-      <LayoutPage />
+    <div className=" items-center overflow-hidden">
       <div className="w-full h-[75%]">
         <img
           src="https://vietnamnightlife.com/uploads/images/2020/07/1594608182-single_banner26-vietnamnightlifeslider.jpg.webp"
@@ -27,8 +26,10 @@ function PageHome() {
           <IntroHome />
         </div>
       </div>
-      <div>
+      <div className="w-full">
         <EventHome />
+      </div>
+      <div className="w-full">
         <TopLocation />
       </div>
       <div className="w-full">
@@ -60,14 +61,6 @@ function PageHome() {
         <Album />
       </div>
       <hr className="h-[1px] w-full mt-12" />
-      <div className='flex flex-col h-[250px]'>
-        <Footer />            
-      </div>
-      <div className='bg-[#00FFFF] w-full justify-center flex py-2'>
-        <div className='text-[#000000]'>
-        © 2019 VIETNAMNIGHTLIFE.COM. All rights reserved
-        </div>
-      </div>
     </div>
   )
 }

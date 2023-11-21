@@ -20,8 +20,8 @@ const Root = styled('div')(({ theme }) => ({
 function Album() {
   return (
     <div>
-      <div className="w-[1214px] mt-16">
-        <div className="flex w-[1214px] mt-8">
+      <div className="w-[1214px] mt-16 max-lg:w-full ">
+        <div className="flex w-[1214px] mt-8 max-lg:w-full">
           <Root>
             <Divider
               sx={{
@@ -55,7 +55,7 @@ border-b-[20px] border-b-transparent"
         <div className="flex justify-center font-medium mt-8 text-[14px] text-[#EEEEEE]">
           Cập nhật những hình ảnh đẹp nhất của khách hàng
         </div>
-        <div className="flex justify-between flex-wrap">
+        <div className="flex  flex-wrap justify-center">
           <AlbumItem />
           <AlbumItem />
           <AlbumItem />
@@ -70,11 +70,11 @@ border-b-[20px] border-b-transparent"
           Xem thêm {'-->'}
         </Link>
       </div>
-      <div className="flex mt-12 justify-center">
-        <div className="mt-2 mr-24 text-[#CCCCCC] ">
+      <div className="flex mt-12 mx-12 justify-center max-lg:flex-col max-lg:w-full">
+        <div className="mt-2 mr-24 max-lg:mx-12 text-[#CCCCCC] flex max-lg:justify-center">
           ĐĂNG KÝ ĐỂ NHẬN NHỮNG TIN TỨC MỚI NHẤT TỪ CHÚNG TÔI
         </div>
-        <div className='flex'>
+        <div className="flex max-lg:justify-center max-lg:mt-4">
           <div className="border-[1px] border-[rgba(204,204,204,.3)] w-[335px] py-[6px] px-4">
             <span className="text-[#888]">
               <EmailIcon />
@@ -82,11 +82,10 @@ border-b-[20px] border-b-transparent"
             <input
               type="text"
               className=" bg-transparent px-4 placeholder-[#888]"
-              placeholder='Email (*)'
-              
+              placeholder="Email (*)"
             />
           </div>
-          <button className='bg-white text-black py-[6px] px-12 text-[12px] font-bold'>
+          <button className="bg-white text-black py-[6px] px-12 text-[12px] font-bold">
             Gửi
           </button>
         </div>

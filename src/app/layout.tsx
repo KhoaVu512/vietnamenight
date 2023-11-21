@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import LayoutPage from '@/app/components/Layout/layout-page'
+import Footer from '@/app/components/Layout/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,8 +18,22 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-
+      <body className={inter.className}>
+        <div className="">
+          <LayoutPage />
+        </div>
+        {children}
+        <div className="w-full flex  flex-col">
+          <div className="flex flex-col h-[250px] max-lg:h-[430px] max-md:h-[630px]">
+            <Footer />
+          </div>
+          <div className="bg-[#00FFFF] w-full justify-center flex py-2">
+            <div className="text-[#000000]">
+              © 2019 VIETNAMNIGHTLIFE.COM. All rights reserved
+            </div>
+          </div>
+        </div>
+      </body>
     </html>
   )
 }

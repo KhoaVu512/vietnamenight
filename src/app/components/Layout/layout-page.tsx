@@ -1,13 +1,32 @@
+'use client'
+
 import PermPhoneMsgSharpIcon from '@mui/icons-material/PermPhoneMsgSharp'
 import SmartphoneSharpIcon from '@mui/icons-material/SmartphoneSharp'
 import LoginSharpIcon from '@mui/icons-material/LoginSharp'
 import PersonAddAltSharpIcon from '@mui/icons-material/PersonAddAltSharp'
 import Link from 'next/link'
+import TemporaryDrawer from '@/app/components/Elements/drawer-nav'
+import { useEffect, useState } from 'react'
 
 function LayoutPage() {
+  const [heightScroll, setHeightScroll] = useState<number>()
+  useEffect(() => {
+    const handleScroll: EventListener = () => {
+      setHeightScroll(window.scrollY)
+    }
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
+
+  // console.log(heightScroll)
+
   return (
-    <div className="flex flex-col justify-center items-center ">
-      <div className="flex  w-[1214px] h-[35px] items-center justify-around p-[18px">
+    <div className=" flex flex-col justify-center w-full items-center">
+      <div className=' w-[1214px] max-[1214px]:w-full'>
+      <div className="flex  h-[35px] items-center p-[18px]">
         <div className="w-full  text-[12px]">
           <div className="flex ">
             <div>
@@ -48,6 +67,7 @@ function LayoutPage() {
           </div>
         </div>
       </div>
+
       <div className="w-full h-[100px] px-[20px] flex items-center justify-between">
         <Link href={'/'}>
           <img
@@ -56,11 +76,15 @@ function LayoutPage() {
             className="w-[100px] h-[80px]"
           />
         </Link>
-        <div className="text-[30px] font-bold tracking-tighter">
+        <div className="text-[30px] max-lg:hidden font-bold tracking-tighter">
           VIETNAM NIGHTLIFE GUIDE
         </div>
-        <div>---</div>
+        <div>
+          <TemporaryDrawer />
+        </div>
       </div>
+      </div>
+     
     </div>
   )
 }

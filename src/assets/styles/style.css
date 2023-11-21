@@ -56,21 +56,24 @@
 }
 
 .btn-album:hover {
-  box-shadow: 0 14px 26px -12px rgb(34 34 34 / 42%), 0 4px 23px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(34 34 34 / 20%)
+  box-shadow: 0 14px 26px -12px rgb(34 34 34 / 42%),
+    0 4px 23px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(34 34 34 / 20%);
 }
 
 .hr-style {
-    background-image: linear-gradient(to right, red, yellow); 
-  width: 75% ; 
+  background-image: linear-gradient(to right, red, yellow);
+  width: 75%;
 }
-
 
 .content-footer::after {
   content: '';
   display: block;
   width: 75%;
   height: 1px;
-  background-color: rgba(255,0,0,0);
+  background-color: rgba(255, 0, 0, 0);
   /* background-image: -webkit-gradient(linear,right top,left top,from(rgba(255,0,0,0)),to(#ccc)); */
-  background-image: linear-gradient(to left,rgba(255,0,0,0),#ccc 100%);
+  background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #ccc 100%);
+}
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  background: linear-gradient(to right, #c31432, #240b36);
 }

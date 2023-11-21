@@ -18,8 +18,8 @@ const Root = styled('div')(({ theme }) => ({
 
 function NightlifeStory() {
   return (
-    <div className="w-[1214px] mt-16">
-      <div className="flex w-[1214px] mt-8">
+    <div className="w-[1214px] mt-16 max-lg:w-full">
+      <div className="flex w-[1214px] mt-8 max-lg:w-full">
         <Root>
           <Divider
             sx={{
@@ -53,7 +53,7 @@ function NightlifeStory() {
       <div className="flex justify-center mt-8 text-[14px]">
         Những thông tin, tin tức thú vị xoay quanh thế giới Nightlife
       </div>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-center">
         <NightlifeStoryItem />
         <NightlifeStoryItem />
         <NightlifeStoryItem />
@@ -63,7 +63,7 @@ function NightlifeStory() {
         <NightlifeStoryItem />
       </div>
 
-      <div className="text-[15px] tracking-tighter flex justify-end font-semibold mt-10">
+      <div className="text-[15px] tracking-tighter flex justify-end font-semibold mt-10 mx-8">
         {' '}
         {'>'}
         {'>'}Xem thêm

@@ -20,8 +20,8 @@ const Root = styled('div')(({ theme }) => ({
 function PrivateParty() {
   return (
     <div>
-      <div className="w-[1214px] mt-16">
-        <div className="flex w-[1214px] mt-8">
+      <div className="w-[1214px] mt-16 max-lg:w-full">
+        <div className="flex w-[1214px] mt-8 max-lg:w-full">
           <Root>
             <Divider
               sx={{
@@ -39,8 +39,8 @@ function PrivateParty() {
                   border-r-[25px] border-r-white
                   border-b-[20px] border-b-transparent"
                 ></div>
-                <div className="border-[2px] h-[40px] bg-white text-black text-[22px] font-bold tracking-tighter px-3 font-sans uppercase">
-                  TỔ CHỨC SỰ KIỆN PRIVATE PARTY hang đầu
+                <div className="border-[2px] h-[40px] bg-white text-black text-[22px] font-bold tracking-tighter px-3 font-sans uppercase  max-md:h-[80px]  mb-4 ">
+                  TỔ CHỨC SỰ KIỆN <br className='md:hidden'/>  PRIVATE PARTY  hàng đầu
                 </div>
                 <div
                   className="w-0 h-0 
@@ -52,22 +52,22 @@ function PrivateParty() {
             </Divider>
           </Root>
         </div>
-        <div className="flex justify-center font-medium mt-8 text-[14px] text-[#EEEEEE]">
+        <div className="flex justify-center font-medium mt-8 text-[14px] text-[#EEEEEE] px-8">
           Vietnam Nightlife giới thiệu những nghệ sĩ nổi tiếng được yêu thích
           trong và ngoài nước có gu âm nhạc cá tính và phong cách sống nghệ
           thuật.
         </div>
-        <div className="flex justify-between flex-wrap">
+        <div className="flex justify-center flex-wrap">
           <PrivatePartyItem />
           <PrivatePartyItem />
           <PrivatePartyItem />
         </div>
       </div>
-      <div className="text-[15px] tracking-tighter flex justify-end font-semibold mt-10">
+      <Link href={'#'} className="text-[15px] tracking-tighter flex justify-end font-semibold mt-10 mx-12">
         {' '}
         {'>'}
         {'>'}Xem thêm
-      </div>
+      </Link>
     </div>
   )
 }
