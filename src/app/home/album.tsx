@@ -59,7 +59,6 @@ border-b-[20px] border-b-transparent"
           <AlbumItem />
           <AlbumItem />
           <AlbumItem />
-          <AlbumItem />
         </div>
       </div>
       <div className="flex justify-center">

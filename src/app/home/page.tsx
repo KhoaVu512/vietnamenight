@@ -13,7 +13,7 @@ import Footer from '@/app/components/Layout/footer'
 
 function PageHome() {
   return (
-    <div className=" items-center overflow-hidden">
+    <div className=" items-center overflow-hidden flex justify-center flex-col">
       <div className="w-full h-[75%]">
         <img
           src="https://vietnamnightlife.com/uploads/images/2020/07/1594608182-single_banner26-vietnamnightlifeslider.jpg.webp"
@@ -26,13 +26,13 @@ function PageHome() {
           <IntroHome />
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full flex justify-center">
         <EventHome />
       </div>
-      <div className="w-full">
+      <div className="w-full flex justify-center">
         <TopLocation />
       </div>
-      <div className="w-full">
+      <div className="w-full flex justify-center">
         <img
           src="https://vietnamnightlife.com/uploads/images/2022/10/1665120200-single_banner45-z376243728949754c7499d23a8643505f533d763f4ab35.png.webp"
           alt=""
@@ -51,13 +51,13 @@ function PageHome() {
         />
       </div>
 
-      <div>
+      <div className='flex justify-center'>
         <PrivateParty />
       </div>
-      <div>
+      <div className='flex justify-center'>
         <NightlifeStory />
       </div>
-      <div>
+      <div className='flex justify-center'>
         <Album />
       </div>
       <hr className="h-[1px] w-full mt-12" />
