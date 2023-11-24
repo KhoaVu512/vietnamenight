@@ -4,6 +4,7 @@ import Divider from '@mui/material/Divider'
 import { styled } from '@mui/material/styles'
 import Link from 'next/link'
 import EmailIcon from '@mui/icons-material/Email'
+import { Carousel } from '@material-tailwind/react'
 
 const Root = styled('div')(({ theme }) => ({
   width: '100%',
@@ -56,9 +57,26 @@ border-b-[20px] border-b-transparent"
           Cập nhật những hình ảnh đẹp nhất của khách hàng
         </div>
         <div className="flex  flex-wrap justify-center">
+          {/* <AlbumItem />
           <AlbumItem />
-          <AlbumItem />
-          <AlbumItem />
+          <AlbumItem /> */}
+          <Carousel className="rounded-xl">
+            <img
+              src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+              alt="image 1"
+              className="h-full w-full object-cover"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+              alt="image 2"
+              className="h-full w-full object-cover"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+              alt="image 3"
+              className="h-full w-full object-cover"
+            />
+          </Carousel>
         </div>
       </div>
       <div className="flex justify-center">
@@ -69,12 +87,12 @@ border-b-[20px] border-b-transparent"
           Xem thêm {'-->'}
         </Link>
       </div>
-      <div className="flex mt-12 mx-12 justify-center max-lg:flex-col max-lg:w-full">
+      <div className="flex mt-12 mx-12 max-sm:mx-2 justify-center max-lg:flex-col max-lg:w-full">
         <div className="mt-2 mr-24 max-lg:mx-12 text-[#CCCCCC] flex max-lg:justify-center">
           ĐĂNG KÝ ĐỂ NHẬN NHỮNG TIN TỨC MỚI NHẤT TỪ CHÚNG TÔI
         </div>
         <div className="flex max-lg:justify-center max-lg:mt-4">
-          <div className="border-[1px] border-[rgba(204,204,204,.3)] w-[335px] py-[6px] px-4">
+          <div className="border-[1px] border-[rgba(204,204,204,.3)] w-[335px] py-[6px] px-4 ">
             <span className="text-[#888]">
               <EmailIcon />
             </span>
@@ -84,7 +102,7 @@ border-b-[20px] border-b-transparent"
               placeholder="Email (*)"
             />
           </div>
-          <button className="bg-white text-black py-[6px] px-12 text-[12px] font-bold">
+          <button className="bg-white text-black py-[6px] px-12 max-sm:px-6 text-[12px] font-bold">
             Gửi
           </button>
         </div>

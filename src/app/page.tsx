@@ -1,5 +1,5 @@
 'use client'
-import PageHome from '@/app/home/page'
+import PageHome from '@/app/home/page-home'
 import { useState } from 'react'
 
 function Page() {

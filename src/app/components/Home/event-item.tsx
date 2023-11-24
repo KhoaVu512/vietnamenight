@@ -1,10 +1,14 @@
 import Link from 'next/link'
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth'
 import HeadphonesRoundedIcon from '@mui/icons-material/HeadphonesRounded'
-function EventItem() {
+interface Props {
+  width: string
+  height: string
+}
+function EventItem(props: Props) {
   return (
     <Link href="#">
-      <div className="w-[219px] max-lg:h-[403px] max-lg:w-[168px] h-[458px] lg: mt-12 flex flex-wrap max-lg:mx-3 md:w-[356px] md:h-[607px]">
+      <div className={`w-[${props.width}] max-lg:h-[403px] max-lg:w-[168px] h-[${props.height}] lg:mt-12 flex flex-wrap max-lg:mx-3 md:w-[356px] md:h-[607px]`}>
         <img
           src="https://vietnamnightlife.com/uploads/images/2023/09/1695028124-single_product1-khu13.png.webp"
           alt="image-event"

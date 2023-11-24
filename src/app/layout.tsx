@@ -24,7 +24,7 @@ export default function RootLayout({
         </div>
         {children}
         <div className="w-full flex  flex-col">
-          <div className="flex flex-col h-[250px] max-lg:h-[430px] max-md:h-[630px]">
+          <div className="flex flex-col h-[250px] max-lg:h-[430px] max-md:h-[600px]">
             <Footer />
           </div>
           <div className="bg-[#00FFFF] w-full justify-center flex py-2">

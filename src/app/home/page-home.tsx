@@ -9,7 +9,6 @@ import PrivateParty from '@/app/home/private-party'
 import TopLocation from '@/app/home/top-location'
 import Album from '@/app/home/album'
 import '@/assets/styles/style.css'
-import Footer from '@/app/components/Layout/footer'
 
 function PageHome() {
   return (
