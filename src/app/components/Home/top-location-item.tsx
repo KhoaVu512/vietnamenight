@@ -3,7 +3,7 @@ import Link from 'next/link'
 function TopLocationItem() {
   return (
     <Link
-      href={'#'}
+      href={'/detail-bar'}
       className="relative  mt-8 justify-between mx-2 "
     >
       <img

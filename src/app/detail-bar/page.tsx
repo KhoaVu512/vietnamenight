@@ -6,7 +6,6 @@ import EventDetail from '@/app/detail-bar/event-detail'
 import FormDetail from '@/app/detail-bar/form-detail'
 import IntroBar from '@/app/detail-bar/info-bar'
 import Intro from '@/app/detail-bar/intro'
-import LikeWithYou from '@/app/detail-bar/like-with-you'
 import Rate from '@/app/detail-bar/rate'
 import '@/assets/styles/style.css'
 

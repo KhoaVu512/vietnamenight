@@ -88,7 +88,7 @@ function EventDetail() {
           văn hoá Ả Đào. Sự pha trộn giữa nét truyền thống và hiện đại đã tạo
           nên một tổ hợp giải trí có 1-0-2 ngay tại trung tâm Quận 1.
         </div>
-        <iframe width="1220" height="450" src="https://www.youtube.com/embed/XM2vhidPvIY" title="Dao House Saigon | Best Rooftop Bar in Ho Chi Minh City | Book Your Table Now" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='mt-4'></iframe>
+        <iframe width="1220" height="450" src="https://www.youtube.com/embed/XM2vhidPvIY" title="Dao House Saigon | Best Rooftop Bar in Ho Chi Minh City | Book Your Table Now" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='mt-4' allowFullScreen ></iframe>
       </div>
     </div>
   )
