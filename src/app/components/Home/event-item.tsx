@@ -2,8 +2,10 @@ import Link from 'next/link'
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth'
 import HeadphonesRoundedIcon from '@mui/icons-material/HeadphonesRounded'
 interface Props {
-  width: string
-  height: string
+  width: string,
+  height: string,
+  
+
 }
 function EventItem(props: Props) {
   return (

@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 function Intro() {
   return (
-    <div className=" flex flex-col justify-center items-center w-full h-full">
-      <div className="text-[35px] font-Anton uppercase  font-bold mt-[120px]">
+    <div className=" flex flex-col justify-center items-center w-full h-full ">
+      <div className="text-[35px] max-lg:text-[25px] font-Anton uppercase  font-bold mt-[120px]">
         Địa điểm hàng đầu
       </div>
       <div className="text-[14px] font-bold ">

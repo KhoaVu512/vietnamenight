@@ -2,14 +2,14 @@ import EventItem from '@/app/components/Home/event-item'
 import CalendarTodayOutlinedIcon from '@mui/icons-material/CalendarTodayOutlined'
 function EventDetail() {
   return (
-    <div>
-      <div className="border-b-[1px] mt-2 w-full my-4">
-        <div className="inline-block px-[14px] mx-[20px] bg-[#000] relative top-[13px] text-[20px] font-bold">
+    <div className="max-lg:w-full ">
+      <div className="border-b-[1px] mt-2 w-full my-4  max-lg:justify-center max-lg:flex ">
+        <div className="inline-block px-[14px] mx-[20px] bg-[#000] relative top-[13px] text-[20px] font-bold ">
           {' '}
           <CalendarTodayOutlinedIcon /> EVENT LIÊN QUAN
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center pt-4">
         <EventItem
           width="150px"
           height="312px"
@@ -19,13 +19,13 @@ function EventDetail() {
           height="312px"
         />
       </div>
-      <div className="border-b-[1px] mt-2 w-full my-4">
-        <div className="inline-block px-[14px] mx-[20px] bg-[#000] relative top-[13px] text-[20px] font-bold">
+      <div className="border-b-[1px] mt-2 w-full my-4 max-lg:justify-center max-lg:w-full flex">
+        <div className="inline-block px-[14px] mx-[20px] bg-[#000] relative top-[13px] text-[20px] font-bold ">
           {' '}
-          <CalendarTodayOutlinedIcon /> Thong tin khac
+          <CalendarTodayOutlinedIcon /> Thông tin khác
         </div>
       </div>
-      <div className="px-6 text-[15px] ">
+      <div className="px-6 text-[15px] w-full flex flex-col justify-center  max-lg:w-[800px] max-md:w-[600px] max-sm:w-[480px] max-md:mx-4">
         <div className="flex my-1">
           {' '}
           <span className="text-[#00FFFF] font-bold mr-1">
@@ -88,7 +88,15 @@ function EventDetail() {
           văn hoá Ả Đào. Sự pha trộn giữa nét truyền thống và hiện đại đã tạo
           nên một tổ hợp giải trí có 1-0-2 ngay tại trung tâm Quận 1.
         </div>
-        <iframe width="1220" height="450" src="https://www.youtube.com/embed/XM2vhidPvIY" title="Dao House Saigon | Best Rooftop Bar in Ho Chi Minh City | Book Your Table Now" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='mt-4' allowFullScreen ></iframe>
+        <iframe
+          width="1220"
+          height="450"
+          src="https://www.youtube.com/embed/XM2vhidPvIY"
+          title="Dao House Saigon | Best Rooftop Bar in Ho Chi Minh City | Book Your Table Now"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          className="mt-4 max-lg:w-[800px] max-md:w-[500px]  max-md:h-[240px]  max-sm:w-[350px] "
+          allowFullScreen
+        ></iframe>
       </div>
     </div>
   )

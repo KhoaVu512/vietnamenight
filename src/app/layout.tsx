@@ -23,7 +23,7 @@ export default function RootLayout({
           <LayoutPage />
         </div>
         {children}
-        <div className="w-full flex  flex-col">
+        <div className="w-full flex  flex-col overflow-hidden">
           <div className="flex flex-col h-[250px] max-lg:h-[430px] max-md:h-[600px]">
             <Footer />
           </div>

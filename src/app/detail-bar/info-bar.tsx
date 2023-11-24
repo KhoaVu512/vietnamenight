@@ -6,9 +6,9 @@ import PlaceIcon from '@mui/icons-material/Place'
 
 function IntroBar() {
   return (
-    <div className='mt-5'>
+    <div className='mt-5 w-full justify-center flex flex-col max-lg:w-[80%] max-sm:w-full '>
       <div className="text-[35px] uppercase font-bold">ĐÀO HOUSE SAIGON</div>
-      <div className="flex mt-1">
+      <div className="flex mt-1 ">
         <Stack spacing={1}>
           <Rating
             name="half-rating-read"

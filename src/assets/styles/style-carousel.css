@@ -44,3 +44,33 @@
   margin: 0 10px;
   font-size: 13px;
 }
+.swiper-button-prev {
+  left: var(--swiper-navigation-sides-offset, 24px);
+  width: calc(var(--swiper-navigation-size) / 28 * 27);
+
+  right: auto;
+  background-color: rgb(194, 169, 169);
+}
+
+.swiper-button-next {
+  right: var(--swiper-navigation-sides-offset, 24px);
+  width: calc(var(--swiper-navigation-size) / 28 * 27);
+
+  left: auto;
+  background-color: rgb(194, 169, 169);
+}
+.swiper-button-prev:hover {
+  
+  background-color: black;
+}
+
+.swiper-button-next:hover {
+ 
+  background-color: black;
+}
+
+:root {
+  --swiper-navigation-size: 20px;
+  --swiper-navigation-color: white;
+}
+

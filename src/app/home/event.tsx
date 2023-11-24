@@ -54,17 +54,48 @@ function EventHome() {
         Đừng bỏ lỡ những events hấp dẫn diễn ra hằng ngày
       </div>
       <div className="flex flex-wrap justify-between max-md:justify-center max-lg:justify-center">
-        <EventItem width='219px' height='458px'/>
-        <EventItem width='219px' height='458px'/>
-        <EventItem width='219px' height='458px'/>
-        <EventItem width='219px' height='458px'/>
-        <EventItem width='219px' height='458px'/>
-        <EventItem width='219px' height='458px'/>
-        <EventItem width='219px' height='458px'/>
+        <EventItem
+          width="219px"
+          height="458px"
+         
+        />{' '}
+        <EventItem
+          width="219px"
+          height="458px"
+     
+        />{' '}
+        <EventItem
+          width="219px"
+          height="458px"
         
+        />{' '}
+        <EventItem
+          width="219px"
+          height="458px"
+        
+        />{' '}
+        <EventItem
+          width="219px"
+          height="458px"
+       
+        />{' '}
+        <EventItem
+          width="219px"
+          height="458px"
+      
+        />{' '}
+        <EventItem
+          width="219px"
+          height="458px"
+      
+        />
       </div>
 
-      <div className='text-[15px] tracking-tighter flex justify-end font-semibold mt-10 mx-8'> {'>'}{'>'}Xem thêm</div>
+      <div className="text-[15px] tracking-tighter flex justify-end font-semibold mt-10 mx-8">
+        {' '}
+        {'>'}
+        {'>'}Xem thêm
+      </div>
     </div>
   )
 }

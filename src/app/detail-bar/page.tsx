@@ -16,9 +16,13 @@ function Page() {
         <Intro />
       </div>
       <div className="w-full justify-center flex">
-        <div className="w-[1214px] flex justify-center">
-          <div className="w-[800px] overflow-hidden flex  flex-col mx-12">
-            <div>
+        <div className="w-[1214px] flex justify-center max-lg:flex-col">
+          <div className="hidden max-lg:flex w-full max-lg:justify-center max-lg:w-screen-[100%]">
+            <FormDetail />
+          </div>
+
+          <div className="w-[800px] overflow-hidden flex  flex-col mx-12 justify-center max-lg:w-screen ">
+            <div className="flex w-full justify-center max-lg:h-[300px] max-lg:px-12  ">
               <IntroBar />
             </div>
             <div className="w-full flex justify-center">
@@ -38,11 +42,11 @@ function Page() {
             </div>
             <div className="w-full flex justify-center mt-8">
               <div className="w-full  h-[400px] max-lg:w-[75%]">
-                <CarouselSignatures container="Thuc don" />
+                <CarouselSignatures container="Thực đơn" />
               </div>
             </div>
           </div>
-          <div>
+          <div className="max-lg:hidden">
             <FormDetail />
           </div>
         </div>

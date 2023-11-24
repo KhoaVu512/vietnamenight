@@ -30,18 +30,18 @@ function Rate() {
   const [progress, setProgress] = React.useState(97)
 
   return (
-    <div className='my-2'>
-      <div className="border-b-[1px] text-[20px] font-bold">
+    <div className='my-8'>
+      <div className="border-b-[1px] text-[20px] font-bold max-md:justify-center max-md:flex">
         Đánh giá của khách hàng
       </div>
-      <div className="w-full flex">
-        <div className="w-[50%] mt-4">
+      <div className="w-full flex max-lg:flex-col max-md:mx-12">
+        <div className="w-[50%] mt-4 max-md:w-[600px] max-sm:w-[400px] max-md:justify-center ">
           <div className="text-[20px] font-bold">XẾP HẠNG ĐÁNH GIÁ CHUNG</div>
           <div className="text-[#999999] mt-2">
             Chỉ những thực khách đã dùng bữa tại nhà hàng hoặc đã sử dụng qua
             dịch vụ của chúng tôi bạn mới có thể đánh giá tại đây
           </div>
-          <div className="flex">
+          <div className="flex mt-2 max-lg:justify-center">
             <Stack spacing={1}>
               <Rating
                 name="half-rating-read"
@@ -54,7 +54,7 @@ function Rate() {
               4.7 {'(94.24%)'} 25 votes
             </div>
           </div>
-          <div className="text-[18px] font-semibold">Tổng hợp đánh giá</div>
+          <div className="text-[18px] font-semibold mt-2">Tổng hợp đánh giá</div>
           <div className="flex ">
             <div className="flex flex-col items-center justify-center text-center w-[120px] h-[70px] border-r-[1px] border-[rgba(238,238,238,.2)]">
               {' '}

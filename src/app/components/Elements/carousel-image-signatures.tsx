@@ -25,9 +25,7 @@ export default function CarouselSignaturesItem() {
         centeredSlides={false}
         spaceBetween={20}
         zoom={false}
-        pagination={{
-          type: 'fraction',
-        }}
+       
         navigation={true}
         virtual
         className='swiper-sig'
