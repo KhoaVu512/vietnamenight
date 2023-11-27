@@ -3,6 +3,7 @@
 import AlertDialogSlide from '@/app/components/Elements/alert'
 import PageHome from '@/app/home/page-home'
 import { useState } from 'react'
+import '@/assets/styles/style.css'
 
 function Page() {
 
