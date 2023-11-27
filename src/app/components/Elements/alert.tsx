@@ -11,7 +11,7 @@ import Slide from '@mui/material/Slide'
 import { TransitionProps } from '@mui/material/transitions'
 import IconButton from '@mui/material/IconButton'
 import CloseIcon from '@mui/icons-material/Close'
-import '@/assets/styles/style.css'
+import   './Alert.css'
 
 const Transition = React.forwardRef(function Transition(
   props: TransitionProps & {
@@ -46,7 +46,8 @@ export default function AlertDialogSlide() {
         TransitionComponent={Transition}
         keepMounted
         onClose={handleClose}
-        aria-describedby="alert-dialog-slide-description"
+        aria-describedby={` alert-dialog-slide-description`
+  }
       >
         <IconButton
           aria-label="close"
