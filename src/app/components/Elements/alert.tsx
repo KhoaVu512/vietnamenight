@@ -9,6 +9,7 @@ import Slide from '@mui/material/Slide'
 import { TransitionProps } from '@mui/material/transitions'
 import IconButton from '@mui/material/IconButton'
 import CloseIcon from '@mui/icons-material/Close'
+import '@/assets/styles/style.css'
 
 const Transition = React.forwardRef(function Transition(
   props: TransitionProps & {
