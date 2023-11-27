@@ -38,21 +38,21 @@ function PageHome() {
           className="w-full h-[40%] mt-20"
         />
       </div>
-      <div>
+      {/* <div>
         <ComboNight />
-      </div>
+      </div> */}
 
-      <div className="w-full">
+      {/* <div className="w-full">
         <img
           src="https://vietnamnightlife.com/uploads/images/2022/10/1665120200-single_banner45-z376243728949754c7499d23a8643505f533d763f4ab35.png.webp"
           alt=""
           className="w-full h-[40%] mt-20"
         />
-      </div>
+      </div> */}
 
-      <div className='flex justify-center'>
+      {/* <div className='flex justify-center'>
         <PrivateParty />
-      </div>
+      </div> */}
       <div className='flex justify-center'>
         <NightlifeStory />
       </div>

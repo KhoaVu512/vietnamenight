@@ -4,6 +4,9 @@ import PermPhoneMsgSharpIcon from '@mui/icons-material/PermPhoneMsgSharp'
 import SmartphoneSharpIcon from '@mui/icons-material/SmartphoneSharp'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
+import MailOutlinedIcon from '@mui/icons-material/MailOutlined'
+import Link from 'next/link'
+import SocialNetwork from '@/app/components/Elements/social-network'
 
 function Footer() {
   return (
@@ -19,12 +22,12 @@ function Footer() {
             />
             Liên hệ
           </div>
-          <div className="mt-3">
+          <div className="mt-3  w-[400px]">
             <div className="text-[13px] font-bold uppercase">
               {' '}
               Vietnam nightlife
             </div>
-            <div className="text-[13px] my-1">
+            {/* <div className="text-[13px] my-1">
               <RoomSharpIcon
                 sx={{
                   fontSize: '12px',
@@ -32,7 +35,7 @@ function Footer() {
                 className="mr-[2px] mb-1"
               />{' '}
               42 Đ. Nguyễn Huệ, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh
-            </div>{' '}
+            </div>{' '} */}
             <div className="text-[13px] my-1">
               <div className="w-full  text-[12px]">
                 <div className="flex ">
@@ -56,11 +59,11 @@ function Footer() {
               </div>
             </div>{' '}
             <div className="text-[13px] my-1">
-              <RoomSharpIcon
+              <MailOutlinedIcon
                 sx={{
                   fontSize: '12px',
                 }}
-                className="mr-[2px] mb-1"
+                className="mr-[0px] mb-1"
               />{' '}
               Vietnamnightlife2019@gmail.com
             </div>
@@ -75,7 +78,7 @@ function Footer() {
             </div>
           </div>
         </div>{' '}
-        <div className='flex max-lg:h-[300px] max-md:h-[460px] max-lg:flex-wrap'>
+        <div className="flex max-lg:h-[300px] max-md:h-[460px] max-lg:flex-wrap">
           <div className="flex flex-col w-[333px] h-[1px] mt-5 px-[18px]">
             <div className="content-footer text-[13px] font-bold uppercase pb-[4px]">
               <ContactEmergencyTwoToneIcon
@@ -157,8 +160,7 @@ function Footer() {
               <div className="text-[13px] my-1">
                 <div className="flex flex-col w-[200px] ">
                   <div className="hover:text-[#888] cursor-pointer">
-                    <FacebookIcon className="text-[blue]" />
-                    <InstagramIcon className="text-[#9e95478f]" />
+                    <SocialNetwork />
                   </div>
                 </div>
               </div>

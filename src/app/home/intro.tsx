@@ -1,8 +1,11 @@
+import SocialNetwork from '@/app/components/Elements/social-network'
+
 function IntroHome() {
   return (
     <div className="flex  w-[1214px]  max-md:py-8 py-12">
       <div className="w-[60%] max-lg:w-full  flex flex-col  justify-center mt-8  ">
         <div className='max-lg:w-full '>
+          <div className='hidden max-lg:flex justify-center mb-2'><SocialNetwork /></div>
           <div className="flex justify-end text-[30px] font-semibold medium tracking-tighter max-lg:justify-center items-center">
             GIỚI THIỆU
           </div>
