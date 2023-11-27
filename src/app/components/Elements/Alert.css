@@ -29,5 +29,5 @@ transition-duration: .3s;
 max-width: auto !important;
 }
 .css-ekeie0 {
-  height: auto;
+  height: auto !important;
 }
