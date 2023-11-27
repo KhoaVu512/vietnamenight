@@ -4,8 +4,15 @@
   align-items: normal !important;
  
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-uhb5lp {
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
 border-radius:  12px !important;
+max-width: 1600px !important;
+max-height: 1600px !important;
+padding: 0 0 !important;
+}
+
+.css-uhb5lp {
+  border-radius:  12px !important;
 max-width: 1600px !important;
 max-height: 1600px !important;
 padding: 0 0 !important;
