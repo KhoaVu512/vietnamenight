@@ -4,10 +4,11 @@
   align-items: normal !important;
  
 }
-.rcss-1t1j96h-MuiPaper-root-MuiDialog-pape .css-uhb5lp  {
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-uhb5lp {
 border-radius:  12px !important;
 max-width: 1600px !important;
 max-height: 1600px !important;
+padding: 0 0 !important;
 }
 
 .css-ypiqx9-MuiDialogContent-root {
@@ -21,7 +22,7 @@ transition-duration: .3s;
 -webkit-transition-duration: .3s;
 }
 
-.css-1ty026z  {
+.css-1ty026z {
   padding: 0 0 !important;
   margin: 32px !important;
 }
