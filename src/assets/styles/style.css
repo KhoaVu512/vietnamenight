@@ -111,18 +111,18 @@
 }
 
 .css-hz1bth-MuiDialog-container {
-  height: auto;
-  align-items: normal;
+  height: auto !important;
+  align-items: normal !important;
  
 }
 .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
-border-radius:  12px;
-max-width: 1600px;
-max-height: 1600px;
+border-radius:  12px !important;
+max-width: 1600px !important;
+max-height: 1600px !important;
 }
 
 .css-ypiqx9-MuiDialogContent-root {
-  padding: 0 0;
+  padding: 0 0 !important;
 }
 
 .input-alert:focus {
