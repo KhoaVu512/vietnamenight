@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react'
 import SocialNetwork from '@/app/components/Elements/social-network'
 
 function LayoutPage() {
-  const [heightScroll, setHeightScroll] = useState<number>()
+  const [heightScroll, setHeightScroll] = useState<number>(0)
   useEffect(() => {
     const handleScroll: EventListener = () => {
       setHeightScroll(window.scrollY)
@@ -20,14 +20,24 @@ function LayoutPage() {
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
-  }, [])
+  }, [heightScroll])
 
-  // console.log(heightScroll)
+  console.log(heightScroll)
 
   return (
-    <div className=" flex flex-col justify-center w-full items-center">
+    <div
+      className={`${
+        heightScroll > 30 ? ' transition-all duration-3000 bg-[rgba(7,7,7,.65)] fixed ease-in-out z-[9999]' : ''
+      } flex flex-col justify-center w-full items-center z-[999]`}
+    >
       <div className=" w-[1214px] max-[1214px]:w-full">
-        <div className="flex  h-[35px] items-center p-[18px]">
+        <div
+          className={`${
+            heightScroll > 30
+              ? 'hidden transition-[ .3s]'
+              : 'flex  h-[35px] items-center p-[18px]'
+          }`}
+        >
           <div className="w-full  text-[12px]">
             <div className="flex ">
               <div>
@@ -69,17 +79,16 @@ function LayoutPage() {
           </div>
         </div>
 
-        <div className="w-full h-[100px] px-[20px] flex items-center justify-between">
-          <Link href={'/'}>
-            <img
-              src="https://vietnamnightlife.com/uploads/images/2019/12/1576826698-single_info36-logo.png.webp"
-              alt=""
-              className="w-[100px] h-[80px]"
-            />
+        <div className=
+        {`${heightScroll > 30 ? 'h-[70px]' : 'h-[100px]'} w-full px-[20px] flex items-center justify-between`}
+        >
+          <Link
+            href={'/'}
+            className="text-[30px]  tracking-tighter uppercase font-logo max-md:text-[20px]"
+          >
+            Vietnamtopclub
           </Link>
-          <div className="text-[30px] max-lg:hidden font-bold tracking-tighter">
-            VIETNAM NIGHTLIFE GUIDE
-          </div>
+
           <div className="flex items-center">
             <div className="max-lg:hidden">
               <SocialNetwork />

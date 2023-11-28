@@ -43,7 +43,7 @@ const ListImage = [
     image:
       'https://images.unsplash.com/photo-1698911762536-53b9e8afb611?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D',
       id: 9
-  },
+  }, 
 ]
 
 export default ListImage

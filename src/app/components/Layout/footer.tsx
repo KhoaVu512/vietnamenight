@@ -99,23 +99,15 @@ function Footer() {
                     Gioi thieu
                   </div>
                 </div>
-                <div className="flex w-[235px] justify-between mt-[6px]">
-                  <div className="hover:text-[#888] cursor-pointer">
-                    Su kien
-                  </div>
-                  <div className="hover:text-[#888] cursor-pointer">
-                    Combo an choi sanh <br /> dieu ve dem
-                  </div>
-                </div>
                 <div className="flex w-[170px] justify-between mt-[6px]">
                   <div className="hover:text-[#888] cursor-pointer">
-                    Nightlife Stories
+                    Su kien
                   </div>
                   <div className="hover:text-[#888] cursor-pointer">
                     Album anh
                   </div>
                 </div>
-                <div>
+                <div className="flex w-[170px] justify-between mt-[6px]">
                   <div className="hover:text-[#888] cursor-pointer">
                     Lien he
                   </div>

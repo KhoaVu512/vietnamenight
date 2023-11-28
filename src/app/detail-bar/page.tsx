@@ -12,7 +12,7 @@ import '@/assets/styles/style.css'
 function Page() {
   return (
     <div className="">
-      <div className="container-detail">
+      <div className="container-detail h-[339px]">
         <Intro />
       </div>
       <div className="w-full justify-center flex">
